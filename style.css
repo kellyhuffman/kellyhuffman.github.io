@@ -1,0 +1,59 @@
+body {
+    background: rgb(0, 0, 0);
+    color: black;
+    font-size: 24px;
+    font-family: Cambria, Cochin, serif;
+}
+
+#container {
+    background: #a9aa6f;
+    width: 90%;
+    margin: 0 auto;
+}
+
+article {
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 10px;
+}
+
+header, footer {
+    background: rgb(255, 255, 255);
+}
+
+header {
+    padding: 10px 5px;
+    margin-bottom: 10px;
+}
+
+.yellow_text {
+    color: rgb(32, 32, 31);
+}
+.white_text {
+    color: rgb(5, 5, 5);
+}
+
+#customers {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#customers td, #customers th {
+    border: 1px solid rgb(51, 50, 50);
+    padding: 6px;
+    text-align: center;
+    table-layout: center;
+    font-size: 16px;
+}
+
+#customers tr:nth-child(even){background-color: #157d97;}
+
+#customers tr:hover {background-color: rgb(68, 67, 110);}
+
+#customers th {
+    padding-top: 8px;
+    padding-bottom: 8px;
+    text-align: center;
+    background-color: rgb(0, 0, 0);
+    color: white;
